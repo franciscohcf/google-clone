@@ -31,7 +31,6 @@ button {
 }
 
 .menu__link {
-    text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
     color: #757575;
@@ -75,4 +74,45 @@ button {
     left: 0;
 }
 
-/* Header */
+/* Main */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 56px 8px 0;
+    align-items: center;
+}
+
+.blank__top {
+    height: 272px;
+}
+
+.content__logo {
+    height: 92px;
+    width: 272px;
+}
+
+.content__search {
+    margin-top: 18px;
+    width: 100%;
+    padding: 7px 10px 6px 20px;
+    font-size: 18px;
+    color: rgba(0,0,0,0.87);
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #dadce0;
+    outline: 0;
+    max-width: 487px;
+}
+
+.buttons {
+    height: 88px;
+}
+
+.button__right {
+    margin: 11px 4px 11px 4px;
+}
+
+.blank__bottom {
+    height: 361px;
+}
